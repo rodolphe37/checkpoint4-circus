@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route } from 'react-router-dom';
+
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import Performance from './Components/Performance/Performance';
+import Booking from './Components/Booking/Booking';
+import PublicEvents from './Components/PublicEvents/PublicEvents';
+import AdminEvents from './Components/AdminEvents/AdminEvents';
+import EventManager from './Components/EventManager/EventManager';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="background">
+      <Navbar />
+      <Route path="/" exact component={Performance} />
+      <Route path="/dates" exact component={PublicEvents} />
+      <Route path="/booking" exact component={Booking} />
+      <Route path="/admin" exact component={AdminEvents} />
+      <Route path="/events/*" exact component={EventManager} />
+      <Footer />
     </div>
   );
 }

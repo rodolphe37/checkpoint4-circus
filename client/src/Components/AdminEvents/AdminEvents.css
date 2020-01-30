@@ -1,0 +1,26 @@
+.title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+}
+
+.list-events{
+  display: flex;
+  flex-direction: column;
+}
+
+.event-header{
+  background-color: #ff6d00;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+ul,li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* white-space: nowrap; */
+}

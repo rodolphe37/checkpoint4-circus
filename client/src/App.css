@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+#background {
+  background-image: url(./images/footer.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 102vh;
+}
+
+.container.form-event {
+  background: white;
+  border-radius: 37px;
+  box-shadow: 1px 1px 4px black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

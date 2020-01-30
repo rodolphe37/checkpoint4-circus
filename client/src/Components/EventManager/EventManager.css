@@ -1,0 +1,17 @@
+.ant-row{
+  margin-top: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.pickers{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ant-time-picker-panel-select > ul {
+  display: flex;
+  flex-direction: column;
+}
