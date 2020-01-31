@@ -49,7 +49,7 @@
 
 ## Author 
 
-- Rodolphe Augusto - Dylan Belouis
+- Rodolphe Augusto 
 
 --- 
 
