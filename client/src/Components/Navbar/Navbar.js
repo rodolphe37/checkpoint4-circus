@@ -1,5 +1,4 @@
-import React, {useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import React from 'react';
 import Logo from '../../images/logo64.png'
 // CSS
 import 'materialize-css/dist/css/materialize.min.css';
@@ -7,7 +6,7 @@ import './Navbar.css';
 import { Menu } from '../BurgerMenu/index';
 
 const Navbar = () => {
-  const [sidebarHidden, setSidebarHidden] = useState(true);
+
 
   return (
     <div>

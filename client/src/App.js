@@ -11,7 +11,6 @@ import EventManager from './Components/EventManager/EventManager';
 
 import { ThemeProvider } from 'styled-components';
 import { useOnClickOutside } from './hooks';
-// import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Burger, Menu } from './Components/BurgerMenu';
 import FocusLock from 'react-focus-lock';
@@ -30,7 +29,6 @@ function App() {
     <Navbar />
     <ThemeProvider theme={theme}>
     <div id="menu">
-      {/*<GlobalStyles />*/}
       <div ref={node}>
         <FocusLock disabled={!open}>
           <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
