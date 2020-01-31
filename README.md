@@ -49,12 +49,6 @@
 
 ---  
 
-### Full React Template with admin section
-
-  - Fully complete fonctional theme for React
-
---- 
-
 ## Author 
 
 - Rodolphe Augusto - Dylan Belouis
