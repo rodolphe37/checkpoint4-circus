@@ -36,8 +36,6 @@
 
 
 ---
-
----
  
 
 ## Tech Stack
@@ -53,8 +51,6 @@
 
 - Rodolphe Augusto - Dylan Belouis
 
-  
-
 --- 
 
 ## License  
@@ -63,13 +59,11 @@
 
 ---
 
-  
-
 ## Start project
 
 ### Warning ! 
-***this administration template works with a Backend***
-[Backend for this administration template](api folder,  start on port 8000)
+***this application React works with a Backend***
+[Backend for this app](api folder,  start on port 8000)
 ---
 
 - Clone or download this repo https://github.com/rodolphe37/checkpoint4-circus.git
