@@ -2,7 +2,9 @@
 
 ## Janvier 2020
 
-# The Wild Circus (FrontEnd => React and Redux) (BackEnd => Express MySQL)
+# The Wild Circus 
+
+**(FrontEnd => React and Redux) (BackEnd => Express MySQL)**
 
 
 
@@ -42,29 +44,19 @@
 
   - Fully complete fonctional theme for React
 
+--- 
 
----
-  
-
-## Author
-
-  
+## Author 
 
 - Rodolphe Augusto - Dylan Belouis
 
   
 
----
+--- 
 
-  
-
-## License
-
-  
+## License  
 
 - MIT.
-
-  
 
 ---
 
@@ -99,6 +91,8 @@ to install the dependencies and
 -  ``` $ npm run dev```
 
 to start backEnd project.
+
+--- 
 
 - after that Do in the console :
 -  ``` $ cd client```
