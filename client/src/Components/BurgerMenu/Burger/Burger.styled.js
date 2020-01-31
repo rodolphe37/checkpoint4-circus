@@ -9,7 +9,7 @@ export const StyledBurger = styled.button`
   justify-content: space-around;
   width: 2rem;
   height: 2rem;
-  background: transparent;
+  background: rgba(0,0,0, .5);
   border: none;
   cursor: pointer;
   padding: 0;
@@ -21,13 +21,15 @@ export const StyledBurger = styled.button`
   span {
     width: 2rem;
     height: 0.25rem;
-    background:black;
+    background:#d6554f;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
     font-size: 12px;
-    
+    &:hover {
+      background: black;
+    }
 
     :first-child {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
