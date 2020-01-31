@@ -8,12 +8,15 @@ const Performance = () => {
 
   return (
     <div className="container spectacle">
+    <div className="container-title">
       <div className="row title">
         <h3 className="deep-purple-text darken-4">CRYSTAL – Le Spectacle</h3>
       </div>
       <h4>« La première prestation acrobatique sur glace.  »</h4>
+    </div>
       <div className="row-video">
         <ReactPlayer 
+          id="playerMovie"
           url="https://youtu.be/zVoB9S8SVSE"
           playing={play} 
           volume={0.5}
@@ -21,8 +24,10 @@ const Performance = () => {
         />
       </div>
       <div className="row-description">
+      <div className="title-desc">
         <p>DURÉE : 2H00</p>
         <p>ÉCRITURE, MISE EN SCÈNE, SCÉNOGRAPHIE ET DIRECTION ARTISTIQUE : Shana Carroll et Sébastien Soldevila</p>
+      </div>
         <p>
         Bien plus qu’un spectacle sur glace, Crystal vous offre un tout nouveau genre d’expérience, créée par le Cirque du Soleil. Voyez des acrobates et des patineurs de classe mondiale s’emparer de la glace avec grâce pour y accomplir des prouesses qui défient les lois de la gravité. Une performance audacieuse et inattendue du Cirque du Soleil, qui promet son lot de sensations fortes. 
         </p>

@@ -1,0 +1,12 @@
+@media screen and (max-width: 640px) {
+    .bloc {
+      display:block;
+      clear:both;
+    }
+    .deep-purple-text {
+        font-size: 1.5rem !important;
+    }
+    .container.spectacle > h4 {
+        font-size: 1.5rem;
+    }
+  }

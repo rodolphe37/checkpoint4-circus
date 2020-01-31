@@ -14,3 +14,26 @@
   color: white;
   text-shadow: 2px 2px 1px black;
 } */
+
+@media only screen and (max-device-width : 640px) {
+  .row-video {
+  width: 362px !important;
+  height: 246px !important;
+  }
+  .deep-purple-text {
+    font-size: 1.5rem !important;
+}
+  h4 {
+    font-size: 1.5rem;
+  }
+  .title-desc > p {
+    font-size: 12px !important;
+    color: black;
+    background-color: rgba(255,255,255,.8);
+    text-shadow: none;
+  }
+  .row-description > p {
+    color: black;
+    text-shadow: none;
+  }
+}

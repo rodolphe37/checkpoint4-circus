@@ -28,3 +28,53 @@ code {
   color: white;
   text-shadow: 2px 2px 1px black;
 }
+
+@media only screen and (max-width: 992px){
+nav .brand-logo {
+    left: 41%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .deep-purple-text {
+      font-size: 1.5rem !important;
+  }
+  .container.spectacle > h4 {
+      font-size: 1.5rem;
+  }
+  .title-desc > p {
+    font-size: 12px !important;
+    color: black;
+    background-color: rgba(255,255,255,.8);
+    text-shadow: none;
+  }
+  .row-description {
+    padding-bottom: 49px;
+}
+  .row-description > p {
+    color: black;
+    text-shadow: none;
+  }
+  div#playerMovie {
+    max-width: 340px;
+    max-height: 240px;
+  }
+  #background {
+    background-position: top;
+    height: 68vh;
+  }
+  .container-title {
+    background-color: rgba(255,255,255,.7);
+    box-shadow: 1px 1px 2px black;
+    border: 1px solid #9640b7;
+  }
+  .container-title > h4 {
+    font-size: 1.4rem;
+  }
+  .row.list-events {
+    padding-right: 19px;
+  }
+  ul.event-header {
+    width: 105.5%;
+  }
+}
