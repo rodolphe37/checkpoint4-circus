@@ -1,4 +1,8 @@
 .brand-logo {
-  padding-left: 87px !important;
+  margin-left: 87px !important;
+  z-index: 9;
+  box-shadow: 1px 1px 4px black;
+  height: 77px;
+  background: #6d9ec8;
 }
 
