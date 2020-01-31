@@ -11,6 +11,7 @@
 [Demo](#demo)
 
 -  [Movie](#movie-demo)
+-  [Pictures](#pictures-demo)
 
 
 
@@ -27,6 +28,14 @@
 ### Movie Demo
 
 ![!Demogif](demo.gif)
+
+---
+### pictures Demo
+
+![!Demopng](accueil.png)
+![!Demoportpng](accueilPort.png)
+
+---
 
 ---
  
