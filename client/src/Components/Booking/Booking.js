@@ -75,7 +75,7 @@ const Booking = (props) => {
     <div className="container form-event">
       <Row>
         <Col sm={24} md={12} className="input-field">
-          <h3>Réservation Billeterie</h3>
+          <h3>Réservation Billets</h3>
           <p>vous allez réserver vos billets pour l'évènement suivant: {idEvent}</p>
         </Col>
       </Row>
