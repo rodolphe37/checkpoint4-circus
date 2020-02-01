@@ -92,7 +92,14 @@ to start backEnd project.
 --- 
 
 - after that Do in the console :
+
+-  ``` $ cd .. ``` 
+
+to return to the parent folder, and do
+
 -  ``` $ cd client```
+
+to going to our frontend folder, then do:
 
 -  ```  $ npm i``` or ``` $ npm install ```
 
