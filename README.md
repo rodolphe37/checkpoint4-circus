@@ -71,10 +71,10 @@
 - Restore Database with ``` dump-circus-202001310919.sql ```
 
 
-- Create ".env" file  on your app's root and name it ".env" : 
+- Create dotenv file  on your app's root (in the api folder) and name it ".env" : 
 - put it in this file :
   
-``` DB_USER=(user Db), DB_NAME=(Name Db), DB_HOST=(Host backend), DB_PASSWORD=(password Db) ```
+``` DB_USER=YourDbUser, DB_NAME=circus, DB_HOST=localhost , DB_PASSWORD=(YourDbPassword) ```
  
 
 - Do in the console :
@@ -99,7 +99,7 @@ to return to the parent folder, and do
 
 -  ``` $ cd client```
 
-to going to our frontend folder, then do:
+to going to our frontend folder, then doing:
 
 -  ```  $ npm i``` or ``` $ npm install ```
 
