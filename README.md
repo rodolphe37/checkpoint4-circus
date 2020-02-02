@@ -4,7 +4,7 @@
 
 # The Wild Circus 
 
-**(FrontEnd => React and Redux) (BackEnd => Express MySQL)**
+**(FrontEnd => React (Hooks) and Redux) (BackEnd => Express and MySQL)**
 
 
 
@@ -77,7 +77,7 @@
 ``` DB_USER=YourDbUser, DB_NAME=circus, DB_HOST=localhost , DB_PASSWORD=(YourDbPassword) ```
  
 
-- Do in the console :
+ Do in the console :
  
 -  ``` $ cd api```
 
@@ -91,7 +91,7 @@ to start backEnd project.
 
 --- 
 
-- after that Do in the console :
+ after that Do in the console :
 
 -  ``` $ cd .. ``` 
 
